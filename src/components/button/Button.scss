@@ -1,0 +1,23 @@
+.button {
+  justify-self: center;
+  height: 40px;
+  border-width: 0px;
+  padding-inline: 30px;
+  color: orange;
+  font-weight: bold;
+
+  &:hover {
+    color: white;
+  }
+
+  &--primary {
+    border-radius: 25px;
+    background-color: white;
+    background-repeat: repeat;
+
+    &:hover {
+      border: 2px solid white;
+      background-color: orange;
+    }
+  }
+}
