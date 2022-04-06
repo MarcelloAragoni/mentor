@@ -1,0 +1,74 @@
+.card {
+  max-width: 306px;
+  height: 502px;
+  
+  * + * {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  &__title {
+    color: white;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  &__info {
+    padding-top:15px;
+    font-size: 18px;    
+    line-height: 1.3em;
+  }
+
+  > .button {
+    margin-top: 120px;
+    margin-left: 47px;
+  }
+
+  &--sedan {
+    background-color: #E28525;
+    
+    > .card__info {
+      color: #F8C885;
+    }  
+  }
+
+  &--suvs {
+    background-color: #016972;
+
+    > .card__info {
+      color: #A0E2EE;
+    }
+  }
+
+  &--luxury {
+    background-color: #00403F;
+
+    > .card__info {
+      color: #87B8B9;
+    }
+  }
+
+  &__img {
+    margin-top: 0px;
+    padding-left: 94px;
+    padding-top: 47px;
+    width: 64px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &--sedan {
+      background-image:url(../../images/icon-sedans.svg);
+    }
+
+    &--suvs {
+      background-image:url(../../images/icon-suvs.svg);
+    }
+
+    &--luxury {
+      background-image:url(../../images/icon-luxury.svg);
+    }
+  }
+}
+
