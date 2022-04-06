@@ -9,5 +9,9 @@ export default function Button({ text, color }) {
     { "button--blue": color === "blue" }
   );
 
-  return <button className={buttonColor}>{text}</button>;
+  return (
+    <button type="button" className={buttonColor}>
+      {text}
+    </button>
+  );
 }

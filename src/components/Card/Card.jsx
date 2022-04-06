@@ -20,8 +20,8 @@ export default function Card({ buttonColor, imageType, title, text }) {
   return (
     <div className={cardClass}>
       <p className={imgClass}></p>
-      <h1>{title}</h1>
-      <p>{text}</p>
+      <h1 className="card__title">{title}</h1>
+      <p className="card__info">{text}</p>
       <Button color={buttonColor} text="Learn More" />
     </div>
   );
