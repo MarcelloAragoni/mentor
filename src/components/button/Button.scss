@@ -1,22 +1,38 @@
 .button {
   justify-self: center;
   height: 40px;
+  border-radius: 25px;
   border-width: 0px;
+  background-color: white;
   padding-inline: 30px;
-  color: orange;
-  font-weight: bold;
+  font-weight: bold;  
 
   &:hover {
+    border: 2px solid white;
     color: white;
   }
 
-  &--primary {
-    border-radius: 25px;
-    background-color: white;
-
+  &--orange{
+    color: #E28525;
+    
     &:hover {
-      border: 2px solid white;
-      background-color: orange;
+      background-color: #E28525;
+    }
+  }
+
+  &--green {
+    color: #016972;
+   
+    &:hover {
+      background-color: #016972;
+    }
+  }
+
+  &--blue {
+    color: #00403F;
+    
+    &:hover {
+      background-color:#00403F
     }
   }
 }
