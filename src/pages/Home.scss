@@ -1,0 +1,13 @@
+.home{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F1F2;
+}
+
+@media screen and (max-width: 767px) {
+  .home{
+    padding: 50px 20px 50px 20px;    
+  }  
+}
