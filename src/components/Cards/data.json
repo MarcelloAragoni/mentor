@@ -1,5 +1,5 @@
 {
-  "automobile": [
+  "automobiles": [
     {
       "id":1,
       "title": "SEDANS",
@@ -10,7 +10,7 @@
     {
       "id":2,
       "title": "SUVS",
-      "type": "suv",
+      "type": "suvs",
       "text": "Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.",
       "buttonColor": "green"
     },
