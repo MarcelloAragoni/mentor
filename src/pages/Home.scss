@@ -1,4 +1,4 @@
-.home{
+.home {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .home{
+  .home {
     padding: 50px 20px 50px 20px;    
   }  
 }
